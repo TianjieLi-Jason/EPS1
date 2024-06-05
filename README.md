@@ -1,1 +1,1 @@
-# MD-simulation-for-EPS1
+# MD simulations for EPS1
