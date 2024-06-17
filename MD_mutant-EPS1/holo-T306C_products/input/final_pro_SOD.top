@@ -1,0 +1,57 @@
+;
+;	File 'topol.top' was generated
+;	By user: jason (1000)
+;	On host: jason-computer
+;	At date: Sat Jan 22 19:57:47 2022
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2020.6 (-:
+;	
+;	Executable:   /home/jason/Programs/gromacs-2020/bin/gmx
+;	Data prefix:  /home/jason/Programs/gromacs-2020
+;	Working dir:  /media/jason/Data/Projects/EPS1/14-SA&NPG-Thr306Cys
+;	Command line:
+;	  gmx pdb2gmx -f T306C_NpG-SA.pdb -o EPS1_NpG-SA.gro -ter -ff charmm36-mar2019 -water tip3p
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./charmm36-mar2019.ff/forcefield.itp"
+
+; Include SA and NpG parameters
+#include "./sa.prm"
+#include "./npg.prm"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Other_chain_B.itp"
+#include "topol_Other_chain_C.itp"
+
+; Include water topology
+#include "./charmm36-mar2019.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./charmm36-mar2019.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Other_chain_B       1
+Other_chain_C       1
+SOL               927
+SOL         17554
+NA               25
+CL               19
