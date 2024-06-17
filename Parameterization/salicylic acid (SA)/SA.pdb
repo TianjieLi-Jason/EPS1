@@ -1,0 +1,17 @@
+REMARK original generated coordinate pdb file
+ATOM      1  C1  SA  X   1      -0.688   1.114  -0.059  1.00  0.00      SA   C
+ATOM      2  C2  SA  X   1      -1.393  -0.093  -0.049  1.00  0.00      SA   C
+ATOM      3  C3  SA  X   1      -0.703  -1.304  -0.035  1.00  0.00      SA   C
+ATOM      4  C4  SA  X   1       0.691  -1.309  -0.031  1.00  0.00      SA   C
+ATOM      5  C5  SA  X   1       1.388  -0.102  -0.041  1.00  0.00      SA   C
+ATOM      6  C6  SA  X   1       0.718   1.131  -0.055  1.00  0.00      SA   C
+ATOM      7  C7  SA  X   1       1.472   2.439  -0.066  1.00  0.00      SA   C
+ATOM      8  O1  SA  X   1       0.802   3.517  -0.081  1.00  0.00      SA   O
+ATOM      9  O2  SA  X   1       2.745   2.342  -0.060  1.00  0.00      SA   O
+ATOM     10  O3  SA  X   1       2.758  -0.178  -0.037  1.00  0.00      SA   O
+ATOM     11  H1  SA  X   1      -1.228   2.059  -0.070  1.00  0.00      SA   H
+ATOM     12  H2  SA  X   1      -2.479  -0.080  -0.052  1.00  0.00      SA   H
+ATOM     13  H3  SA  X   1      -1.248  -2.243  -0.027  1.00  0.00      SA   H
+ATOM     14  H4  SA  X   1       1.240  -2.244  -0.021  1.00  0.00      SA   H
+ATOM     15  H5  SA  X   1       3.068   0.771  -0.044  1.00  0.00      SA   H
+END
