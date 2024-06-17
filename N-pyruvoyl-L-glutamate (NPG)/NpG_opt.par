@@ -1,0 +1,26 @@
+BONDS
+CG2O1  CG2O5   265.4440   1.5200 ! optimized via fftk
+
+ANGLES
+CG2O5  CG2O1  NG2S1    74.39    113.66 ! optimized via fftk                              
+CG2O5  CG2O1  OG2D1   166.16    122.25 ! optimized via fftk                             
+CG2O1  CG2O5  CG331   118.85    115.82 ! optimized via fftk                             
+CG2O1  CG2O5  OG2D3   145.69    121.27 ! optimized via fftk                              
+
+DIHEDRALS
+NG2S1  CG2O1  CG2O5  CG331      2.6550  2   180.00 ! optimized via fftk                                      
+NG2S1  CG2O1  CG2O5  OG2D3      2.7930  2     0.00 ! optimized via fftk                                    
+OG2D1  CG2O1  CG2O5  CG331      1.4780  2   180.00 ! optimized via fftk                                      
+OG2D1  CG2O1  CG2O5  OG2D3      0.9790  2   180.00 ! optimized via fftk                                  
+CG2O5  CG2O1  NG2S1  CG311      0.3730  1   180.00 ! optimized via fftk                                       
+CG2O5  CG2O1  NG2S1  CG311      2.3600  2   180.00 ! optimized via fftk                                     
+CG2O5  CG2O1  NG2S1  HGP1       1.2910  2   180.00 ! optimized via fftk                                     
+CG2O1  CG2O5  CG331  HGA3       1.2250  3     0.00 ! optimized via fftk                                          
+
+IMPROPERS
+CG2O1  CG2O5  NG2S1  OG2D1    120.0000  0     0.00 ! NpG.sdf , from CG2O1 CG2DC1 NG2S1 OG2D1, penalty= 18
+CG2O5  CG2O1  CG331  OG2D3     88.0000  0     0.00 ! NpG.sdf , from CG2O5 CG2DC1 CG331 OG2D3, penalty= 9
+
+END
+RETURN
+
