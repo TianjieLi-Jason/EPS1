@@ -1,9 +1,9 @@
 # MD simulations of *Arabidopsis thaliana* EPS1
 ## [Parameterization for ligands](./Parameterization)
 - `xxx.pdb`: structure file of xxx.
-- `xxx_CGenFF.str`: parameters originally given by the CGenFF server.
-- `xxx_opt.par`: parameters refined by FFTK.
-- `xxx_opt.top`: topologies refined by FFTK.
+- `xxx_CGenFF.str`: parameters and topologies of xxx originally given by the CGenFF server.
+- `xxx_opt.par`: parameters of xxx refined by FFTK.
+- `xxx_opt.top`: topologies of xxx refined by FFTK.
 ## [Simulated annealing of IGA-bound pose](./MD_wildtype-EPS1/holo-EPS1_IGA/simulated-annealing)
 - `initial.gro`: initial structure from docking. (after energy minimization and equilibrations)
 - `final_runi.gro`: final structure from the ith replica. (after energy minimization)
